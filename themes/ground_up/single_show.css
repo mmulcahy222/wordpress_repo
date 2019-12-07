@@ -1,0 +1,405 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h5,
+p,
+a,
+img,
+strong,
+ul,
+li,
+article,
+figure,
+figcaption,
+footer,
+header,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+figcaption,
+figure,
+footer,
+header,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+    margin: 0;
+    background-color: #fff;
+}
+ul {
+    list-style: none;
+}
+a {
+    outline: none;
+}
+img {
+    outline: none;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1
+}
+div.wrapper {
+    margin: 0 auto;
+    clear: both
+}
+div.wrapper.wrapper-fluid {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+div.wrapper.wrapper-fluid.wrapper-first {
+    margin-top: 0
+}
+div.grid-container {
+    width: 100%;
+    height: auto;
+    margin: 0
+}
+div.wrapper-fluid div.grid-container {
+    margin: 0 auto
+}
+.block {
+    box-shadow: none;
+    background: none;
+    margin: 0 0 10px;
+    border: none;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden
+}
+div.block-content {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto
+}
+.row {
+    float: left;
+    width: 100%
+}
+.column {
+    float: left
+}
+.column-1.grid-left-0 {
+    margin-left: 0 !important
+}
+.block-type-content div.loop {
+    width: 100%;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+.block-type-content .entry-title {
+    margin: 0 0 5px;
+    max-width: 100%;
+    word-wrap: break-word
+}
+.block-type-content div.entry-content {
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.block-type-content .hentry {
+    clear: both;
+    padding: 15px 0 30px;
+    margin: 0 0 10px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.block-type-content a.post-thumbnail {
+    display: block
+}
+.block-type-content a.post-thumbnail img {
+    max-width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.block-type-content a.post-thumbnail-left {
+    float: left;
+    margin: 0 15px 0 0
+}
+footer div
+{
+    width: 100%;
+}
+.copyright {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 10px 0
+}
+.visit_container
+{
+    border-top: 1px solid white;
+}
+div.entry-content h2 {
+    margin: 0 0 20px
+}
+div.entry-content h3,
+div.entry-content h5 {
+    margin: 0 0 15px
+}
+div.entry-content p {
+    margin: 0 0 15px
+}
+.alignleft {
+    float: left;
+    margin: 15px 15px 15px 0px
+}
+.alignright {
+    float: right;
+    margin: 15px 0px 15px 15px
+}
+.wp-caption {
+    padding: 5px;
+    border: 1px solid #eee;
+    background: #fcfcfc;
+    margin-top: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 15px
+}
+.wp-caption img {
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0
+}
+.wp-caption .wp-caption-text {
+    text-align: center;
+    color: #555;
+    margin: 5px 0 0 !important;
+    font-style: italic
+}
+strong {
+    font-weight: bold
+}
+.wp-caption-text {}
+#block-b6h56e06d7027bb3 {
+    min-height: 455px
+}
+h3 {
+    font-size: 11px;
+}
+h2 {
+    font-size: 36px;
+}
+.block {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+a {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold
+}
+body {
+    font-size: 16px;
+    font-family: Raleway;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-transform: none;
+    font-variant: normal
+}
+body {
+    background-image: url(https://rockstarsandstripesshow.com/wp2016/wp-content/uploads/2016/03/rss-all-flag.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.wrapper {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.block-type-content .entry-title {
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 130%;
+    font-style: normal;
+    font-weight: bold
+}
+.block-type-content div.entry-content,
+.block-type-content div.entry-content p {
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+.block-type-content div.entry-content h3,
+.block-type-content div.entry-content h2,
+.block-type-content div.entry-content h1{
+    margin: 30px 0px;
+}
+.block-type-content div.entry-content h5 {
+    font-size: 16px;
+    line-height: 180%;
+}
+.block-type-content a.post-thumbnail img {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: #eeeeee;
+    border-style: solid;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+p.copyright {
+    color: #FFFFFF;
+}
+.block-type-content div.entry-content h1 {
+    font-size: 36px;
+}
+.block-type-content div.entry-content h2 {
+    font-size: 30px;
+}
+.block-type-content div.entry-content h3 {
+    font-size: 28px;
+}
+.block-type-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.block-type-content div.entry-content .wp-caption {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-style: none;
+    margin-top: 0px;
+}
+.block-type-content div.entry-content .wp-caption .wp-caption-text {
+    color: #CCCCCC;
+    font-family: palatino linotype, palatino, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+}
+body {
+    padding-top: 50px !important;
+}
+#view_3_wrapper {
+    margin-top: -50px;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    vertical-align: middle;
+}
+footer h2.share-heading {
+    line-height: 2em;
+}
+footer h3.share-heading {
+    font-size: 22px;
+    line-height: 2em;
+}
+footer div {
+    display: inline-block;
+    padding: 20px 0px;
+}
+.rss-highlight {
+    box-shadow: 2px 2px 2px #555555;
+}
+.rss-highlight {
+    drop-shadow: 2px 2px 2px #555555;
+}
+@media screen and (max-width: 768px) {
+    div.entry-content,
+    div.entry-content p {
+        font-size: 16px !important
+    }
+    footer h2.share-heading {
+        font-size: 20px;
+        text-align: center
+    }
+    .gform_wrapper .ginput_container_email {
+        width: 80% !important;
+        margin-left: 10% !important
+    }
+}
+@media only screen and (max-width: 650px) {
+    footer {
+        width: calc(100% - 30px) !important;
+        margin: auto 15px !important
+    }
+}
+div.social-icons-container {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+ul.social-icons {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    align-items:;
+}
+ul.social-icons li {
+    display: inline-block;
+    width: auto;
+    margin: 0px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
