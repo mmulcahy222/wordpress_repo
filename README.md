@@ -14,4 +14,4 @@ I made a separate page that lists my favorite songs & albums in order in 2016, u
 
 I simply added to "Intuitive Custom Post Order" by hijiji to do something important when a user drags one of the row. In this case, it was to change the rating of an album or a song. Hijiji did all the work.
 
-![](images/draggable.jpg)
+![](images/draggable_songs.jpg)
